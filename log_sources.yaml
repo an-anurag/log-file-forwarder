@@ -1,0 +1,7 @@
+log-sources:
+  - name: application
+    path: /var/log/apt/term.log
+    file-type: live
+    host: 10.111.49.247
+    port: 5143
+    type: UDP
